@@ -16,7 +16,12 @@
     "service_worker": "src/background.js"
   },
   "permissions": [
+    "scripting",
+    "tabs",
     "storage"
+  ],
+  "host_permissions": [
+    "https://sixth.dk/*"
   ],
   "action": {
     "default_title": "Chrome Plugin Javascript Execution"
